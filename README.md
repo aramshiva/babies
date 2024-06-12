@@ -39,5 +39,5 @@ year INT
 
 ### Want to run yourself?
 - Fill in the `.env` (use `.env.example` as a guide)
-- Run `python3 main.py` (this can takes a couple days, I suggest running it on a [Raspberry Pi](https://www.raspberrypi.com/) with [tmux](https://github.com/tmux/tmux) to run while terminal is closed
+- Run `python3 main.py` (this can **take a couple days**, I suggest running it on a [Raspberry Pi](https://www.raspberrypi.com/) with [tmux](https://github.com/tmux/tmux) to run while terminal is closed
 - Boom! Your mySQL database is now full with data, and a table with 4 columns: `name, sex, amount, year`
