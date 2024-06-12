@@ -16,6 +16,7 @@ sex CHAR(1),
 amount INT,
 year INT
 ```
+There is a second table called `namesbyarea` which also has the `area` column which is the state/territory code for that area
 
 ### Some things to keep in note:
 - As of 2024 there are around 2,117,219 rows in the database.
