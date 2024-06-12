@@ -21,6 +21,13 @@ year INT
 - Names with 5 or less occurrences with the sex and year are defaulted to 5 by the SSA to protect privacy
 - The sex is a single character, either "M" or "F" for Male or Female.
 - The year is the year the person was born, NOT registered.
+- The raw data is a folder. For each year of birth YYYY after 1879, we created a comma-delimited file called yobYYYY.txt.
+  Each record in the individual annual files has the format "name,sex,number," where name is 2 to 15
+  characters, sex is M (male) or F (female) and "number" is the number of occurrences of the name.
+  Each file is sorted first on sex and then on number of occurrences in descending order. When there is
+  a tie on the number of occurrences, names are listed in alphabetical order. This sorting makes it easy to
+  determine a name's rank. The first record for each sex has rank 1, the second record for each sex has
+  rank 2, and so forth.
 
 ### Planned Features (when i get bored again):
 - Add a new column for the state the name was registered/possibly create a new database to store the [state data](https://www.ssa.gov/oact/babynames/limits.html).
