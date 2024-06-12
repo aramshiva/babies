@@ -36,3 +36,8 @@ year INT
 - Create a web interface to search for names and display the data.
 - Graphs! Who doesn't love graphs?
 - An exported db file for those who don't want to set up a MySQL server :D
+
+### Want to run yourself?
+- Fill in the `.env` (use `.env.example` as a guide)
+- Run `python3 main.py` (this can takes a couple days, I suggest running it on a R[aspberry Pi](https://www.raspberrypi.com/) with [tmux](https://github.com/tmux/tmux) to run while terminal is closed
+- Boom! Your mySQL database is now full with data, and a table with 4 columns: `name, sex, amount, year`
