@@ -4,6 +4,8 @@
 
 # Babies
 ## A parser for every name listed on a social security card between 1880-2023.
+*(Tabulated based on Social Security records as of March 3, 2024)*
+
 Your first question is probably why? to that I ask why not?
 
 This data is pulled from the [US Social Security Administration's Baby Names from Social Security Card Applications - National Dataset](https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data).
