@@ -3,7 +3,7 @@
 > This **is** public data given by the Social Security Adminstration
 
 # Babies
-## A parser for every name listed on a social security card between 1880-2023.
+### A parser for every name listed on a social security card between 1880-2023.
 *(Tabulated based on Social Security records as of March 3, 2024)*
 
 Your first question is probably why? to that I ask why not?
