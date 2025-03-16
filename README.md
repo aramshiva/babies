@@ -1,6 +1,6 @@
 > [!NOTE]  
 > This does **not** include any social security numbers. The only data stored is the name, frequency, sex, year born
-> This **is** public data given by the Social Security Adminstration
+> This **is** public data given by the Social Security Administration
 
 # Babies
 ### A parser for every name listed on a social security card between 1880-2023.
@@ -31,13 +31,7 @@ year INT
   determine a name's rank. The first record for each sex has rank 1, the second record for each sex has
   rank 2, and so forth.
 
-### Planned Features (when i get bored again):
-- Add a new column for the state the name was registered/possibly create a new database to store the [state data](https://www.ssa.gov/oact/babynames/limits.html).
-- Create a web interface to search for names and display the data.
-- Graphs! Who doesn't love graphs?
-- An exported db file for those who don't want to set up a MySQL server :D
-
 ### Want to run yourself?
 - Fill in the `.env` (use `.env.example` as a guide)
-- Run `python3 main.py` (this can **take a couple days**, I suggest running it on a [Raspberry Pi](https://www.raspberrypi.com/) with [tmux](https://github.com/tmux/tmux) to run while terminal is closed
+- Run `python3 main.py`
 - Boom! Your mySQL database is now full with data, and a table with 4 columns: `name, sex, amount, year`
