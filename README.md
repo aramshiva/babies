@@ -1,3 +1,6 @@
+> [!WARNING]  
+> As of March 16th 2025, this repo is not maintained, it has been merged into the [`names` repo](https://github.com/aramshiva/names) in the `sql` folder.
+
 > [!NOTE]  
 > This does **not** include any social security numbers. The only data stored is the name, frequency, sex, year born
 > This **is** public data given by the Social Security Administration
